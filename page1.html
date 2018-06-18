@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>page1</title>
+	<link rel="stylesheet" type="text/css" href="page1.css">
+</head>
+<body>
+	<h3 class="home"><a class="home1" href="dbms project.html">log out</a></h3>
+	<div>
+		<table>
+			<form action="page2.php" method="post">
+			<div id="styl">
+			<tr><th>options</th></tr>
+			<tr><td id="d1">insert details</td></tr>
+			<tr><td id="d2">delete details</td></tr>
+			</div>
+		</table>
+			<P id="first">to insert elements into database</P>
+			<p id="middle">to delete elements from database</p>
+		<h1 class="head">University database</h1>
+		<div id="box">
+			insert:
+			<select id="insert" name="choice">
+				<option value="--select">select</option>
+				<option value="instructor">instructor</option>
+				<option value="students">students</option>
+				<option value="course">course</option>
+			</select>
+			<input class="but" type="submit" name="done" value="enter">
+		</div>
+		<div id="box0">
+			delete:
+			<select id="delete" name="choice">
+				<option value="--select">select</option>
+				<option value="instructor">instructor</option>
+				<option value="students">students</option>
+				<option value="course">course</option>
+			</select>
+			<input class="but" type="submit" name="done" value="enter">
+		</div>
+	</form>
+	<script type="text/javascript" src="page1.js">
+	</script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+table{
+	position: absolute;
+	top: 10%;
+	border-collapse: collapse;
+	border-radius: 20px;
+	width:10%;
+}
+body{
+	background-image: url("b1.jpg")
+}
+
+.head{
+	background-color: white;
+	text-decoration: underline;
+	border: 1px solid black;
+	border-radius: 20px 0 20px 0;
+	width: 60%;
+	position: absolute;
+	right: 20%;
+	bottom: 90%;
+	text-align: center;
+}
+
+.home1{
+	color: black;
+}
+
+.home:hover{
+	text-decoration: underline;
+	font-size: 24px;
+}
+
+.head:hover{
+	font-size: 35px;
+}
+
+#middle{
+	width: 10%;
+	font-size: 24px;
+	border:1px solid black;
+	padding-left:5px; 
+	border-radius: 10px;
+	position: absolute;
+	top: 40%;
+	visibility: hidden;
+}
+#first{
+	width: 10%;
+	font-size: 24px;
+	border:1px solid black;
+	padding-left:5px; 
+	border-radius: 10px;
+	position: absolute;
+	top: 40%;
+	visibility: hidden;
+}
+
+td,th{
+	font-size: 24px;
+	border: 1px hidden ; 
+	background-color: rgba(122,0,0,0.5);
+	text-align: left;
+	padding:8px;
+}
+
+th{
+	border-radius: 10px 10px 10px 10px; 
+}
+
+td:first-child{
+	border-radius: 10px 10px 10px 10px;
+}
+
+td:hover{
+	font-size: 26px;
+	text-decoration: underline;
+	color: black;
+	cursor: pointer;
+}
+
+a:hover{
+	text-decoration: underline;
+	visibility: visible;
+}
+
+
+#styl{
+	background-color: rgba(122,0,0,0.5);
+}
+
+#box{
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 10px;
+	width: 75%;
+	height: 80%;
+	position: absolute;
+	top: 10%;
+	right: 10%;
+	visibility: hidden;
+}
+
+#box1{
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 10px;
+	width: 75%;
+	height: 80%;
+	position: absolute;
+	top: 10%;
+	right: 10%;
+	visibility: hidden;
+}
+
+#box2{
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 10px;
+	width: 75%;
+	height: 80%;
+	position: absolute;
+	top: 10%;
+	right: 10%;
+	visibility: hidden;
+}
+
+#box3{
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 10px;
+	width: 75%;
+	height: 80%;
+	position: absolute;
+	top: 10%;
+	right: 10%;
+	visibility: hidden;
+}
+
+.but{
+border-radius: 5px;
+text-align: center;
+}
+h2{
+	text-align: center;
+}
+input{	
+border-radius: 5px;
+}
+
+.bu{
+border-radius: 5px;
+}

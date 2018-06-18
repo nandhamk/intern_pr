@@ -1,0 +1,39 @@
+body{
+	background-image: url("1447344480Kct-logo.jpg");
+	background-size: cover;
+}
+
+a{
+	text-decoration: underline;
+	color:black;
+	position: absolute;
+	right: 5%;
+}
+a:hover{
+	font-size: 20px;
+}
+#in{
+	height: 40%;
+	width: 50%;
+	text-align: center;
+	position: absolute;
+	top:25%;
+	right:25%;
+}
+.but{
+margin: 0.5%;
+height: 20px;
+width: 50%;
+border-radius: 5px;
+text-align: center;
+}
+.but1{
+border-radius: 5px;
+text-align: center;
+color: black;
+background-color: rgb(128,128,128)
+}
+
+.bu{
+border-radius: 5px;
+}
